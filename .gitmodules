@@ -1,3 +1,9 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/jayesh9747/walmart-server.git
+[submodule "client"]
+	path = client
+	url = https://github.com/jayesh9747/walmart-client.git
+[submodule "mobileapp"]
+	path = mobileapp
+	url = https://github.com/jayesh9747/walmart-client-app.git

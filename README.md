@@ -26,18 +26,30 @@ We've developed an automated system that optimizes Walmart's delivery management
 
 ## Technology Stack
 - **Frontend**:
-  - React.js: For building the user interface.
-  - Tailwind CSS: For styling the application.
-  - Chart.js: For data visualizations and dashboard components.
+  - React.js
+  - Tailwind CSS
+  - Chart.js
 
 - **Backend**:
-  - Express.js: For handling server-side logic and API requests.
-  - MongoDB: For managing and storing data.
-  - Cloudinary: For image storage and management.
+  - Express.js
+  - MongoDB
+  - Cloudinary (for image storage)
 
-- **AI Models**:
-  - **Mistral MoE** (Mixture of Experts): Ensures accurate delivery planning by leveraging AI-driven decision-making processes.
-  - **Generative AI**: Optimizes route planning and trailer assignment.
+- **AI/ML**:
+  - **Generative AI Frameworks**:
+    - CrewAI
+    - Langchain
+  - **LLM Model**:
+    - MistralAI
+
+- **Database**:
+  - MongoDB (Primary)
+  - Chroma (RAG - Retrieval-Augmented Generation)
+  - SQLite3 (RAG)
+
+- **Other Tools**:
+  - QR-based tracking for inventory
+  - GPS-based route verification
 
 ## Key Features
 - **Real-Time Data Integration**: Continuous data gathering on inventory, sales, trailer availability, and driver details.
@@ -57,7 +69,6 @@ We've developed an automated system that optimizes Walmart's delivery management
 ## YT Video Link 
 
 [![Watch the video](https://img.youtube.com/vi/p0HcXKrnb-I/hqdefault.jpg)](https://youtu.be/p0HcXKrnb-I?si=m8KiYJlKyjxoXwVp)
-
 
 ## Usage
 1. **Admin Panel**: Admins can manage inventory, monitor deliveries, and oversee the entire system.
